@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Usermodel extends Model
+{
+    use HasFactory;
+
+    protected $table='tbusser';
+    protected $fillable = ['username','password','userimage','role'];
+
+}
